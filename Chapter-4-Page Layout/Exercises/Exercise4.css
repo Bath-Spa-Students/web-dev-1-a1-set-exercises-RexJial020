@@ -1,0 +1,74 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+/* Header styling */
+header {
+    background-color: #3a1369;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: underline;
+    padding: 50px;
+
+}
+
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin:40px;
+}
+
+h2{
+    text-decoration: underline;
+
+
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffffff; 
+}
+
+section, aside {
+    flex: 1;
+}
+
+/* Section styling */
+section {
+    margin-right: 20px;
+    background-color: #ffffff; /* Background color for section */
+}
+
+/* Aside styling */
+aside {
+    background-color: #18429c;
+    color: #ffffff;
+    padding: 20px;
+}
+
+aside h2 {
+    color: #ffffff;
+}
+
+/* Footer styling */
+footer {
+    background-color: #7b36b1;
+    color: #ffffffda;
+    text-align: center;
+    padding: 10px;
+
+}
+
+/* Image styling */
+.Row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Row img {
+    width: 45%;
+    margin-top: 10px;
+}
